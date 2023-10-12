@@ -1,0 +1,16 @@
+body {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+h1, h2, h3, h4 {color: #10316b;}
+.evenrow {background-color: lightgreen;}
+h1 {font-size: 1.45em ;}
+h2 {font-size: 1.1em}
+body {background-color: #e8e8cc;}
+p {color: #0b4619;
+}
+a:hover {color: #085424}
+a {color: #0b4619
+}
+nav {background-color: #eeeeee;}
+nav a {color: #0983b7}
+nav a:hover {background-color: #bff469;}
+nav {padding: 10px}
+nav {margin-bottom: 30px}
