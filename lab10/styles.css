@@ -1,10 +1,10 @@
 body {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
-h1, h2, h3, h4 {color: #ffffff;}
+h1, h2, h3, h4 {color: #000000;}
 .evenrow {background-color: lightgreen;}
 h1 {font-size: 1.45em ;}
 h2 {font-size: 1.1em}
 body {background-color: #000080;}
-p {color: #ffffff;
+p {color: #000000;
     
 }
 a:hover {color: #085424}
@@ -44,3 +44,32 @@ margin-right: 30px;}
 .icons {flex-basis: 75%;
 justify-content: space-around;
 flex:1;}
+
+.banner {max-width: 100%;
+
+}
+
+
+
+.contactflex1, .second, .contact {display: flex;
+justify-content: space-around;
+padding: 20px;
+background-color: #eeeeee;
+border-radius: 20px;
+margin: 30px;
+}
+
+.second {flex-wrap: wrap;}
+
+@media only screen and (max-width: 600px){
+    nav a {max-width: 100%;
+    display: block;
+    padding: 10px;
+}
+    nav span {display: none;
+    }
+}
+
+@media only screen and (min-width: 601px){
+    
+}
