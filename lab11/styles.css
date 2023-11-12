@@ -1,0 +1,97 @@
+body {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+h1, h2, h3, h4 {color: #5f5c5c;}
+.evenrow {background-color: lightgreen;}
+h1 {font-size: 1.45em ;}
+h2 {font-size: 1.1em}
+body {background-color: #000080;}
+p {color: #5f5c5c;
+    
+}
+a:hover {color: #085424}
+a {color: #0b4619
+}
+nav, .footer, .index1 {background-color: #eeeeee;}
+
+.index1 {
+    display: flex;
+    padding: 20px;
+    
+    border-radius: 20px;
+    margin: 20px;}
+
+nav a {color: #000000}
+nav a:hover {background-color: #bff469;}
+
+nav {padding: 10px}
+nav {margin-bottom: 30px}
+.copyright {float: left;
+}
+.quote {float: right}
+.ts {display: flex;
+
+    justify-content: space-around;
+}
+
+.icons {display: flex;
+    justify-content: space-between;}
+
+aside {background-color: rgb(226, 252, 109);
+margin: 10px;
+padding: 20px;
+border-radius: 13px;
+
+
+
+}
+aside h2, h3 {color: black;}
+
+.flex {display:flex;
+}
+.aside {flex-basis: 25%;
+margin-right: 30px;}
+.icons {flex-basis: 75%;
+justify-content: space-around;
+flex:1;}
+
+.banner {max-width: 100%;
+
+}
+
+
+
+.contactflex1, .second, .contact {display: flex;
+justify-content: space-around;
+padding: 20px;
+background-color: #eeeeee;
+border-radius: 20px;
+margin: 30px;
+}
+
+.second {flex-wrap: wrap;}
+
+@media only screen and (max-width: 600px){
+    nav a {max-width: 100%;
+    display: block;
+    padding: 10px;
+}
+    nav span {display: none;
+    }
+}
+
+@media only screen and (min-width: 601px){
+    
+}
+
+.skip {background-color: #ffbf00;
+    padding: 5px;
+    border: 1px solid #000000;
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    left: -999px;
+
+}
+
+    .skip:focus {
+        left:10px;
+    }
