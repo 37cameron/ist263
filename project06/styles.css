@@ -1,0 +1,97 @@
+body {background-color: rgb(189, 217, 225);
+color: black;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.head1, .head1p {border-radius: 10px;
+border-color: #eb9c5c;
+background-color: #53917e;
+border-style: solid;
+
+border-width: 5px;
+display: flex;
+justify-content: space-around;
+margin: 20px;
+padding: 10px;
+
+}
+
+
+.head2, .head2p {
+    border-radius: 10px;
+border-color: #caeb5c;
+background-color: #53917e;
+border-style: solid;
+
+border-width: 5px;
+display: flex;
+justify-content: space-around;
+
+padding: 10px;
+}
+
+.head2 {margin-top:100px;
+margin: 20px;
+
+}
+
+.element, .elementp {
+    border-radius: 10px;
+border-color: #5cabeb;
+background-color: #53917e;
+border-style: solid;
+
+border-width: 5px;
+display: flex;
+justify-content: space-around;
+
+padding: 10px;
+}
+
+.tag1, .tag2, .elementexample {
+    
+    font-size: large;
+    background-color: white;
+}
+
+.tag1 {color: green;}
+.tag2 {color: red;}
+
+.exampleflex, .example {border-radius: 10px;
+    border-color: #9c5ceb;
+    background-color: #53917e;
+    border-style: solid;
+    
+    border-width: 5px;
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 10px;}
+
+.exampleimage {size: 80%;}
+.exampleimage0 {display: flex;
+justify-content: space-around;
+margin: 30px;}
+
+.skip {background-color: #ffbf00;
+    padding: 5px;
+    border: 1px solid #000000;
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    left: -999px;
+
+}
+
+    .skip:focus {
+        left:10px;
+    }
+
+    @media only screen and (max-width: 600px){
+        nav a {max-width: 100%;
+        display: block;
+        padding: 10px;
+    }
+        nav span {display: none;
+        }
+    }
