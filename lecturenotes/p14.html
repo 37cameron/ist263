@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Josefin+Sans&display=swap" rel="stylesheet">
+    <style>
+        .container {
+            width: 800px;
+            margin: 0 auto;
+            position: relative;
+        }
+        h1{
+            font-family: 'Gochi Hand', cursive;
+
+        }
+        #modal {
+            padding: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 200px;
+            background-color: whitesmoke;
+            border: 1px solid black;
+            display: none;
+
+        }
+        .button{
+            background-color: green;
+            padding: 5px;
+            width: 250px;
+            text-align: center;
+
+            
+
+        }
+        #closebutton{
+            text-align: right;
+            margin: 0px;
+        }
+        
+    </style>
+    <script>
+        function openModal(){
+            document.getElementById('modal').style.display = 'block'
+        }
+        function closeModal(){
+            document.getElementById('modal').style.display = 'none'
+        }
+        
+    </script>
+</head>
+<body>
+    <div class="container">
+        
+        <p class="button" onclick="openModal();">Subscribe to our mailing list</p>
+    </div>
+
+    <div id="modal">
+        <p  id="closebutton" onclick="closeModal();">X</p>
+        <h1>Subscribe to our Newsletter</h1>
+    <form>
+        
+        <label for="name">Name: </label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email: </label><br>
+        <input type="text" id="email" name="email"><br>
+        <input type="submit" value="Subscribe here">
+    </form>
+    </div>
+</body>
+</html>

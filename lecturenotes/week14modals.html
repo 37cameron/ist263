@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Modal</title>
+    <style>
+        .container {
+            width: 800px;
+            margin: 0 auto;
+            position: relative;
+        }
+        #modal {
+            padding: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 200px;
+            background-color: whitesmoke;
+            border: 1px solid black;
+            display: none;
+
+        }
+        .button{
+            background-color: green;
+            padding: 5px;
+            width: 250px;
+            text-align: center;
+
+            
+
+        }
+        #closebutton{
+            text-align: right;
+            margin: 0px;
+        }
+        
+    </style>
+    <script>
+        function openModal(){
+            document.getElementById('modal').style.display = 'block'
+        }
+        function closeModal(){
+            document.getElementById('modal').style.display = 'none'
+        }
+        
+    </script>
+</head>
+<body>
+    <div class="container">
+        <img src="https://laferger.github.io/ist263/images/cupcakes.jpg" alt="banner of cupcakes">
+        <h1>Desserts</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, consectetur, pariatur quo debitis neque reiciendis commodi consequatur totam quis, placeat libero. Accusantium in inventore recusandae error ipsa, tenetur nam placeat?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, consectetur, pariatur quo debitis neque reiciendis commodi consequatur totam quis, placeat libero. Accusantium in inventore recusandae error ipsa, tenetur nam placeat?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, consectetur, pariatur quo debitis neque reiciendis commodi consequatur totam quis, placeat libero. Accusantium in inventore recusandae error ipsa, tenetur nam placeat?</p>
+        <p class="button" onclick="openModal();">Subscribe to our mailing list</p>
+    </div>
+
+    <div id="modal">
+        <p  id="closebutton" onlick="closeModal();">X</p>
+    <form>
+        
+        <label for="name">Name: </label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email: </label><br>
+        <input type="text" id="email" name="email"><br>
+        <input type="submit" value="Subscribe here">
+    </form>
+    </div>
+</body>
+</html>
