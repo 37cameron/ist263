@@ -129,7 +129,7 @@ border-width: 6px;
     color:  #040494;
 }
 @keyframes attention {
-    0%   {background-color: rgb(220, 140, 140);}
+    0%   {background-color: rgb(241, 157, 157);}
     25%  {background-color: rgb(211, 211, 132);}
     50%  {background-color: rgb(133, 133, 231);}
     100% {background-color: rgb(136, 237, 136);}
@@ -142,7 +142,7 @@ width: 700px;
 font-size: x-large;
 animation-name: attention;
 background-color: red;
-animation-duration: 4s;
+animation-duration: 10s;
 justify-content: space-around;}
 
 .form {
